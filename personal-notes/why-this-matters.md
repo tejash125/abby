@@ -5,6 +5,12 @@ tags: [foundational, motivation, personal]
 
 # Why This Project Matters
 
+## The Bigger Question
+
+The AI angle below is the entry point, not the ceiling. The real aim is to challenge everything and rebuild understanding from first principles — the physical world, intelligence, the foundational blocks of the universe, and eventually who we are and what we are doing here. The more I learn, the more it looks like an enormous amount of accepted knowledge is sitting on weak foundations: held up by "it works" or "everyone agrees" rather than by anything that survives a hard look. Physics, biology, math, and our idea of intelligence all have load-bearing pieces that are really convention dressed as necessity (the same trap that buried quantum non-locality for 30 years — see [[foundations-buried-by-working-math]]).
+
+Intelligence comes first because it is the thing doing the asking. Whatever lets a mind even pose these questions is the lever; understand that and the rest becomes approachable. But everything is connected, so this won't stay a computer science project — it will keep pulling in physics, chemistry, biology, and philosophy. The point of keeping this record is so the vision can expand as the research does, instead of quietly shrinking to fit what's convenient to build.
+
 ## The Current AI Trajectory
 
 The industry is stacking abstractions: neural nets → deep learning → transformers → agents → automation frameworks → orchestration. Each layer solves real problems but inherits every assumption from the layers below. Nobody building agents on top of transformers is questioning whether token-based sequential processing is the right foundation. They're optimizing within the paradigm.

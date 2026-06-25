@@ -211,3 +211,7 @@ __marimo__/
 .obsidian/workspace-mobile.json
 .obsidian/plugins/
 .obsidian/themes/
+.gstack/
+
+# JetBrains IDE config (local, not part of the vault)
+.idea/

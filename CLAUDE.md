@@ -52,6 +52,18 @@ assets/            # Images, diagrams, and other media referenced in notes
 - Visual reasoning and spatial understanding
 - Alternative computation paradigms
 
+## Core communication principle
+
+**Explain everything from first principles.** If a term hasn't been introduced and explained in this conversation, don't use it. No jargon, no acronyms, no shorthand that bakes in assumptions. Every concept should be explainable to a kid. If it can't be, we don't understand it well enough yet.
+
+This is not about dumbing things down — it's about intellectual honesty. Using unexplained terminology hides complexity behind labels and goes against the entire spirit of this project. The goal is to build understanding from the ground up, not to import other people's abstractions unchecked.
+
+When introducing a new concept:
+1. Explain what it does in plain language first
+2. Only then give it a name if it needs one
+3. Never stack unexplained terms — if explaining A requires B, explain B first
+4. If you catch yourself using jargon, stop and unpack it
+
 ## AI assistant guidance
 
 - This is a research project — prioritize exploration and understanding over production quality
@@ -64,3 +76,16 @@ assets/            # Images, diagrams, and other media referenced in notes
 - Question assumptions freely — the whole point is rethinking fundamentals
 - Help connect ideas across different research threads when relevant
 - Tech stack is intentionally undefined — suggest tools only when a specific need arises
+
+## Skill routing
+
+When a request matches one of these gstack skills, invoke it via the Skill tool. Tailored to this research vault's workflow, not a code-shipping pipeline.
+
+- Fetch and summarize a webpage → invoke /browse
+- Pull structured data from a page → invoke /scrape
+- Brainstorm or pressure-test a research idea → invoke /office-hours
+- Debug a failing experiment → invoke /investigate
+- Review experiment code before keeping it → invoke /review
+- Save working progress mid-session → invoke /context-save
+- Resume where you left off → invoke /context-restore
+- Record a durable project learning → invoke /learn
