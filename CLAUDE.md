@@ -19,7 +19,7 @@ This repo is a **research workspace and Obsidian vault**. It serves as:
 ```
 research/          # Research notes, paper summaries, and linked concepts
 personal-notes/    # Personal thoughts, key insights, and reflections
-experiments/       # Coding experiments and proofs of concept
+experiments/       # English-first idea files + the experiments/code derived from them
 assets/            # Images, diagrams, and other media referenced in notes
 ```
 
@@ -38,6 +38,8 @@ assets/            # Images, diagrams, and other media referenced in notes
 - Research notes use Markdown with YAML frontmatter for metadata (date, tags, sources)
 - Use `[[wikilinks]]` or relative markdown links to connect related notes
 - Experiment directories are self-contained with their own README explaining the hypothesis and findings
+- **Idea-first, always.** Every implementation — even a small one — begins as a plain-English `.md` idea file describing what it does and why. Code is derived from that file. If the idea file does not exist, we do not write code. The whole project is driven by English ideas first, code second.
+- **Where thinking goes:** `research/` holds knowledge gained from *outside* (summaries of papers, talks, articles, always with source links). The hypotheses and philosophy *we* are assuming go into the relevant `experiments/<name>/` notes, not `research/`.
 - Commits are infrequent (every several days) — used as research backups, not granular tracking
 - Do not commit unless explicitly asked
 - When summarizing papers or concepts, always include source links
